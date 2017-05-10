@@ -11,14 +11,10 @@ public class Nome {
 		System.out.println("Digite uma nome com mais de 3 caracteres");
 		String palavra = scanner.next();
 		
-		int i = 0;
-		
 		while (palavra.length() <= 3) {
 			
 			System.out.println("nome inválido, digite novamente");
 			palavra = scanner.next();
-			
-			i++;
 		}
 		
 		scanner.close();
