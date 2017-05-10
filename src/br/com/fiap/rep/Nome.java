@@ -23,8 +23,6 @@ public class Nome {
 		
 		scanner.close();
 		
-		if (palavra.length() > 3) {
-			System.out.println("nome validado");
-		}	
+		System.out.println("nome validado");	
 	}
 }
