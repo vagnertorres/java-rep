@@ -8,7 +8,7 @@ public class Senha {
 		
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.println("Digite seu nome");
+		System.out.println("Digite um nome");
 		String nome = scanner.next();
 		
 		System.out.println("Digite uma senha");
