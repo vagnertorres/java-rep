@@ -8,10 +8,10 @@ public class Senha {
 		
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.println("Digite um nome");
+		System.out.println("digite um nome");
 		String nome = scanner.next();
 		
-		System.out.println("Digite uma senha");
+		System.out.println("digite uma senha");
 		String senha = scanner.next();
 		
 		while (senha.equals(nome)) {
