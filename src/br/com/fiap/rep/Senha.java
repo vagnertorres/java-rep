@@ -20,7 +20,7 @@ public class Senha {
 			senha = scanner.next();
 		}
 		
-		System.out.println("Informações corretas");
+		System.out.println("Informações validadas");
 		
 		scanner.close();
 	}
