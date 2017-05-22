@@ -4,10 +4,9 @@ public class Numero {
 
 	public static void main(String[] args) {
 		
-		int numero = 20;
 		int i = 0;
 		
-		while (i <= numero) {
+		while (i <= 20) {
 			System.out.println(i);
 			i++;
 		}
