@@ -13,11 +13,11 @@ public class EstadoCivil {
 		
 		while (!letra.equalsIgnoreCase("s") && !letra.equalsIgnoreCase("c") && !letra.equalsIgnoreCase("v") && !letra.equalsIgnoreCase("d")) {
 			
-			System.out.println("estado civil inválido, digite novamente");
+			System.out.println("Estado civil inválido, digite novamente");
 			letra = scanner.next();
 		}
 		
-		System.out.println("estado civil atualizado");
+		System.out.println("Estado civil atualizado");
 		
 		scanner.close();
 	}
