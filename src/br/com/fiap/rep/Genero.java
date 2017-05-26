@@ -17,7 +17,7 @@ public class Genero {
 			sexo = scanner.next();
 		}
 		
-		System.out.println("sexo validado");
+		System.out.println("Sexo validado");
 		
 		scanner.close();
 	}
