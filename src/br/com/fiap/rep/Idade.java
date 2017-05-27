@@ -13,7 +13,7 @@ public class Idade {
 		
 		while (idade <= 0 || idade > 120) {
 			
-			System.out.println("idade inválida, digite novamente");
+			System.out.println("Idade inválida, digite novamente");
 			idade = scanner.nextInt();
 		}
 		
