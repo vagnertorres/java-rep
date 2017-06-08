@@ -8,7 +8,7 @@ public class Genero {
 		
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.println("digite m ou f para especificar o seu sexo");
+		System.out.println("Digite m ou f para especificar o seu sexo");
 		String sexo = scanner.next();
 		
 		while (!sexo.equalsIgnoreCase("m") && !sexo.equalsIgnoreCase("f")) {
